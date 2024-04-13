@@ -22,7 +22,7 @@ function NewMessage({ currentUser, onAddMessage }) {
         setBody("");
       });
   }
-
+  
   return (
     <form className="new-message" onSubmit={handleSubmit}>
       <input
